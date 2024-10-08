@@ -72,7 +72,9 @@
       "startDate": "2023-01-01",
       "endDate": "2023-05-01",
       "score": "4.0",
-      "courses": ["Full Stack Bootcamp"]
+      "courses": ["Full Stack Bootcamp"],
+
+      "educationDetail": "Through this intensive bootcamp, I gained robust web development skills, particularly in the React and Node.js ecosystems. The program fostered excellent self-learning habits, significantly enhancing my ability to acquire new skills independently. This experience has been instrumental in shaping my approach to continuous learning and problem-solving in the tech industry."
     }
   ],
   "awards": [
@@ -102,29 +104,64 @@
   ],
   "skills": [
     {
-      "name": "Web Development",
-      "level": "Advance",
-      "keywords": [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "React",
-        "Node",
-        "Next.js",
-        "TypeScript",
-        "Tailwind CSS",
-        "Redux",
-        "PostgreSQL",
-        "Git",
-        "GitHub",
-        "Zod",
-        "Jest",
-        "Zustand",
-        "React Hook Forms",
-        "shadcn UI",
-        "MUI",
-        "Astro"
-      ]
+      "name": "HTML",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "CSS",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Javascript",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "React",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Node",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Express",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Next.js",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Tailwind",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Zustand",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Drizzle",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Redux",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Astro",
+      "level": "",
+      "keywords": []
     }
   ],
   "languages": [

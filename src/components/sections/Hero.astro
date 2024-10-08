@@ -15,30 +15,47 @@ const SOCIAL_ICONS : Record<string, any> = {
     Github,
     LinkedIn, 
     X}
+    const linkedin = profiles.find(({ network }) => network === 'LinkedIn');
+    const linkedinUrl = linkedin?.url;
 ---
 
 
 
 <Section>
     <div class="flex  gap-1 items-center justify-between">
-        <div class="flex flex-col gap-2 p-7">
+        <div class="flex flex-col gap-2 px-3">
             <h1 class="text-3xl ">{name}</h1>
             <h2 class="text-2xl font-normal text-zinc-80000 text-balance">{label}</h2>
             <span class="flex items-center gap-1 text-zinc-700  "> <WorldMap/> {countryCode}</span>
-            <footer class="flex gap-2 items-center p-2 mt-1 [&>a]:p-1 [&>a]:border [&>a]:border-zinc-700 [&>a]:rounded-md ">
+            <div class="hidden print:block">{email} &bull; {phone} &bull; {linkedinUrl}</div>
+            <footer class="flex flex-col gap-2 items-start p-2 mt-1 [&>a]:p-1 [&>a]:border [&>a]:border-zinc-700 [&>a]:rounded-md print:hidden">
                 {
-                    email && <a class="bg-zinc-100 hover:scale-105 transition-all delay-100 hover:border-zinc-900  hover:bg-zinc-200" href={`mailto:${email}`} title={`Send a email to ${email}`} target="_blank"><Mail/></a>
-                }
-                {
-                    phone && <a class="bg-zinc-100 hover:scale-105 transition-all delay-100 hover:border-zinc-900  hover:bg-zinc-200" href={`mailto:${phone}`} title={`Send a phone to ${phone}`} target="_blank"><Phone/></a>
-                }
-                {profiles.map(({ network, url }) => {
-                    const Icon = SOCIAL_ICONS[network];
-                    return (
+                        email && 
+                    <div class="flex items-center gap-1">
 
-                        <a class="bg-zinc-100 hover:scale-105 transition-all delay-100 hover:border-zinc-900  hover:bg-zinc-200" href={url} title={`${network} profile`} target="_blank"><Icon/></a>  
-                    )
-                })}
+                        <a class="bg-zinc-100 hover:scale-105 transition-all delay-100 hover:border-zinc-900  hover:bg-zinc-200" href={`mailto:${email}`} title={`Send a email to ${email}`} target="_blank"><Mail/> </a> <span>{email}</span>
+                    </div>
+                }
+                {
+                     phone && 
+                    <div class="flex items-center gap-1">
+
+                        <a class="bg-zinc-100 hover:scale-105 transition-all delay-100 hover:border-zinc-900  hover:bg-zinc-200" href={`tel:${phone}`} title={`Send a message to ${phone}`} target="_blank"><Phone/></a> <span>{phone} </span>
+                    </div> 
+                }
+                <div class="flex gap-5 items-center print:hidden ml-1">
+
+                    {profiles.map(({ network, url }) => {
+                        const Icon = SOCIAL_ICONS[network];
+                        return (
+                            
+                            
+                            <a class="scale-150  bg-zinc-100 hover:scale-[1.75] transition-all delay-100 hover:border-zinc-900 hover:text-blue-700 " href={url} title={`${network} profile`} target="_blank"><Icon/></a>  
+                            
+                            
+                        )
+                    })}
+                    </div>
             </footer>
         </div>
         <figure>

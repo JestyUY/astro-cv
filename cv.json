@@ -1,0 +1,162 @@
+{
+  "basics": {
+    "name": "Martin Sosa",
+    "label": "Full Stack Developer",
+
+    "image": "https://media.licdn.com/dms/image/v2/D5603AQHYkhdPdwi6TA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1728295006252?e=1733961600&amp;v=beta&amp;t=GFM2Jevxs2Xjn_-Kj07AuYXTHDhk-KX5A7jmcWVP7mk",
+    "email": "msosa380@gmail.com",
+    "phone": "0272713913",
+    "url": "msosa.dev",
+
+    "personalSummary": "Passionate and tech-savvy Full Stack Developer with a keen eye for detail. Enthusiastic learner who thrives on daily acquisition of new skills and knowledge. Specializes in modern web development, with expertise in React, TypeScript, and Next.js. Proficient in crafting responsive and visually appealing interfaces using Tailwind CSS. Combines strong technical skills with a deep love for technology to deliver innovative solutions. Committed to staying at the forefront of web development trends and best practices.",
+
+    "location": {
+      "address": "2a te hape",
+      "postalCode": "0110",
+      "city": "Whangarei",
+      "countryCode": "New Zealand",
+      "region": "Northland"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "Martin Sosa",
+        "url": "https://www.linkedin.com/in/martin-sosa-64b940241/"
+      },
+      {
+        "network": "Github",
+        "username": "JestyUY",
+        "url": "https://github.com/JestyUY"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Northland Waste Management",
+      "position": "Software Developer",
+      "url": "https://northlandwaste.co.nz",
+      "startDate": "2024-15-01",
+      "endDate": "current",
+
+      "summary": "Developed and enhanced products using React, Redux, and TypeScript, contributing innovative solutions to team projects. Demonstrated technical expertise in electronics, including routers, switches, relay modules, and Raspberry Pi, while consistently delivering impactful results that advanced business objectives. Maintained a collaborative, open-minded approach, fostering teamwork and creativity.",
+      "highlights": ["Started the company"]
+    },
+    {
+      "name": "AGCO",
+      "position": "Wharehouse Operations Specialist",
+      "url": "www.agco.com",
+      "startDate": "2022-15-10",
+      "endDate": "2023-15-09",
+
+      "summary": "Managed efficient warehouse operations, overseeing goods flow from overseas suppliers to customers. Responsibilities included quality control of received goods, SAP system integration for accurate inventory management, order fulfillment and dispatch, logistics coordination with transport companies, administrative duties, and safe forklift operation. Ensured timely deliveries, maintained high customer satisfaction, and upheld industry compliance standards.",
+      "highlights": ["Started the company"]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Organization",
+      "position": "Volunteer",
+      "url": "https://organization.com/",
+      "startDate": "2012-01-01",
+      "endDate": "2013-01-01",
+      "summary": "Description…",
+      "highlights": ["Awarded 'Volunteer of the Month'"]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Senpai Academy",
+      "url": "https://www.senpaiacademy.com/",
+      "area": "Software Development",
+      "studyType": "Bootcamp",
+      "startDate": "2023-01-01",
+      "endDate": "2023-05-01",
+      "score": "4.0",
+      "courses": ["Full Stack Bootcamp"]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Award",
+      "date": "2014-11-01",
+      "awarder": "Company",
+      "summary": "There is no spoon."
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Certificate",
+      "date": "2023-5-01",
+      "issuer": "Senpai Academy",
+      "url": "https://www.linkedin.com/in/martin-sosa-crossa/details/education/1635539617241/single-media-viewer/?profileId=ACoAADweA5sBRLzTYcTUj3KA6-Nrx-cuTRhe3k0"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Publication",
+      "publisher": "Company",
+      "releaseDate": "2014-10-01",
+      "url": "https://publication.com",
+      "summary": "Description…"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "Advance",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "Node",
+        "Next.js",
+        "TypeScript",
+        "Tailwind CSS",
+        "Redux",
+        "PostgreSQL",
+        "Git",
+        "GitHub",
+        "Zod",
+        "Jest",
+        "Zustand",
+        "React Hook Forms",
+        "shadcn UI",
+        "MUI",
+        "Astro"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "Spanish",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Wildlife",
+      "keywords": ["Ferrets", "Unicorns"]
+    }
+  ],
+  "references": [
+    {
+      "name": "Jane Doe",
+      "reference": "Reference…"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Project",
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "description": "Description...",
+      "highlights": ["Won award at AIHacks 2016"],
+      "url": "https://project.com/"
+    }
+  ]
+}

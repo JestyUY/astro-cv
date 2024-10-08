@@ -1,0 +1,36 @@
+---
+import Section from "@/components/Section.astro";
+import { work } from '@cv';
+
+
+---
+
+<Section title="Experience">
+<ul>
+    {work.map(({ name, position, url, startDate, endDate, summary, highlights }) =>
+    { return (
+        <li class="flex gap-2 items-center mb-4">
+            <article>
+                <header class="flex gap-2  justify-between place-items-end">
+                    <div>
+
+            <h3 class="text-zinc-700 hover:text-zinc-900 text-xl font-semibold ">{name}</h3>
+            <h4 class="text-zinc-700 hover:text-zinc-900 text-wrap text-[1.2rem] leading-6">{position}</h4>
+                    </div>
+                    <span class="text-zinc-700 text-wrap text-[0.9rem] leading-6 border rounded-md bg-zinc-100 border-zinc-700 px-1 hover:scale-105 transition-all delay-100" >{startDate} - {endDate}</span>
+                </header>
+                <footer>
+            <p class="text-zinc-600 text-wrap text-[0.9rem] leading-6">{summary}</p>
+
+                </footer>
+          
+            <ul class="flex gap-2 items-center">
+            </article>
+                
+            </ul>
+        </li>
+    )})}
+</ul>
+    
+
+</Section>

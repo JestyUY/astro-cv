@@ -41,4 +41,22 @@ p{
 	margin: 0;
 	text-wrap: pretty;
 }
+
+@media print {
+  @page {
+    margin: 0;
+  }
+
+  body {
+    margin: 1cm;
+  }
+
+  /* Hide header and footer */
+  body::before,
+  body::after {
+    display: none !important;
+  }
+
+  
+}
 </style>

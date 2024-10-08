@@ -162,6 +162,21 @@
       "name": "Astro",
       "level": "",
       "keywords": []
+    },
+    {
+      "name": "PosgreSQL",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "noSQL",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "SQL",
+      "level": "",
+      "keywords": []
     }
   ],
   "languages": [

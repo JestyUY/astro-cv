@@ -3,7 +3,7 @@
     "name": "Martin Sosa",
     "label": "Full Stack Developer",
 
-    "image": "https://media.licdn.com/dms/image/v2/D5603AQHYkhdPdwi6TA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1728295006252?e=1733961600&amp;v=beta&amp;t=GFM2Jevxs2Xjn_-Kj07AuYXTHDhk-KX5A7jmcWVP7mk",
+    "image": "/cv-photo.webp",
     "email": "msosa380@gmail.com",
     "phone": "0272713913",
     "url": "msosa.dev",
@@ -21,7 +21,7 @@
       {
         "network": "LinkedIn",
         "username": "Martin Sosa",
-        "url": "https://media.licdn.com/dms/image/v2/D5603AQHYkhdPdwi6TA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1728295006252?e=1761782400&v=beta&t=Ge75ukZl7dqVP0GdnSrYuyltWEVcgjvbZGV640Cfus8"
+        "url": "cv-photo/webp"
       },
       {
         "network": "Github",

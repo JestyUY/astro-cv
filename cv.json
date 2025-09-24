@@ -21,7 +21,7 @@
       {
         "network": "LinkedIn",
         "username": "Martin Sosa",
-        "url": "https://www.linkedin.com/in/martin-sosa-64b940241/"
+        "url": "https://media.licdn.com/dms/image/v2/D5603AQHYkhdPdwi6TA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1728295006252?e=1761782400&v=beta&t=Ge75ukZl7dqVP0GdnSrYuyltWEVcgjvbZGV640Cfus8"
       },
       {
         "network": "Github",
@@ -38,7 +38,7 @@
       "startDate": "2024-15-01",
       "endDate": "current",
 
-      "summary": "Developed and enhanced products using React, Redux, and TypeScript, contributing innovative solutions to team projects. Demonstrated technical expertise in electronics, including routers, switches, relay modules, and Raspberry Pi, while consistently delivering impactful results that advanced business objectives. Maintained a collaborative, open-minded approach, fostering teamwork and creativity.",
+      "summary": "Developed and enhanced products using React, Redux, and TypeScript, contributing innovative solutions to team projects. Demonstrated technical expertise in electronics, including routers, switches, relay modules, and Raspberry Pi, while consistently delivering impactful results that advanced business objectives. Maintained a collaborative, open-minded approach, fostering teamwork and creativity",
       "highlights": ["Started the company"]
     },
     {
@@ -182,12 +182,47 @@
       "name": "Git/GitHub",
       "level": "",
       "keywords": []
+    },
+    {
+      "name": "Svelte",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "SvelteKit",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "GO",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Rust",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Elixir",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "React Native",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Expo",
+      "level": "",
+      "keywords": []
     }
   ],
   "languages": [
     {
       "language": "English",
-      "fluency": "Native speaker"
+      "fluency": "Fluent"
     },
     {
       "language": "Spanish",
